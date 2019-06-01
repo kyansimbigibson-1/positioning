@@ -1,0 +1,82 @@
+section {
+    background-color: blue;
+    display: grid;
+}
+ul{
+    display:grid;
+    
+    grid-template-columns: 400px 400px 400px;
+ 
+     
+   
+    
+    
+}
+h3{color:burlywood;
+    align-content: flex-start;}
+#grid-flex li.grid-item {display: flex;
+     flex-flow: column;
+     
+     justify-content:flex-start;
+      
+
+     
+    padding: 20px;
+    background-color: rgb(83, 62, 199);
+
+     color: rgba(234, 238, 231, 0.87);
+     
+    background-color: rgb(34, 74, 128);
+    
+}
+p{
+    flex: 1 200px;
+  }
+img{
+    
+    
+    margin: 0 auto;
+    width:100px;
+    border: 20px;
+    padding: 40px
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px){img {background: red;}} */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    img {background: pink;
+    
+  }}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    img {background:rgb(5, 5, 46);
+    
+  }}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {img {background:
+  
+ light green;
+  
+}}
+
